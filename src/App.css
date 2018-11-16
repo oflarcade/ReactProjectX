@@ -7,7 +7,8 @@
   height: 40vmin;
 }
 
-.App-header {
+/* .App-header {
+  
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,9 +18,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+ */
+ .App-header {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end;
+   height: 200;
+   width: 100%;
+ }
 .App-link {
   color: #61dafb;
+}
+
+.container {
+display:flex;
+flex: 1;
 }
 
 @keyframes App-logo-spin {

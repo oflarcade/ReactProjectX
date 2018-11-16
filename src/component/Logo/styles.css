@@ -1,0 +1,13 @@
+
+
+
+.box-shadow {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: transparent;
+  box-shadow: -7px 7px 10px black;
+  margin-right: 40px;
+  z-index: 200;
+}
+
